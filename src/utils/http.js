@@ -3,7 +3,7 @@ import axios from 'axios'
 
 const http = axios.create({
   baseURL: 'http://pcapi-xiaotuxian-front-devtest.itheima.net',
-  timeout: 5000
+  timeout: 5000   //  超时时间
 })
 
 // 设置请求拦截器, 一般会进行token身份验证等
